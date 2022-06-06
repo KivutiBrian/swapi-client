@@ -10,7 +10,5 @@ services:
     volumes:
       - ./src:/src
     env_file:
-      - ./.env.local
-    # environment:
-    #   - REACT_APP_BASE_URL=http://127.0.0.1:8001/graphql
+      - ./.env.production.local
     
