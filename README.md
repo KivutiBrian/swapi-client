@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+### Dockerize the solution
+
+* From you terminal run commands below depending on the application environment:
+
+* Development: `docker-compose -f docker-compose-dev.yml up --build`.
+* Production: `docker-compose -f docker-compose-prod.yml up --build`.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
